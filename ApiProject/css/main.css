@@ -1,0 +1,161 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    text-align: center;
+<!--opacity: 0.7;-->
+    font: 12px Arial;
+}
+
+#loginDiv {
+    z-index: 2;
+    position: absolute;
+    background-image: url("../image/main.png");
+    text-align: center;
+    min-height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+#mainDiv {
+    z-index: 1;
+    position: relative;
+    background-image: url("../image/tic-tac-toe.png");
+    text-align: center;
+    min-height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.profile{
+    border-radius: 50%;
+}
+.all{
+    margin: auto;
+    width: 400px;
+
+}
+.ser{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    width: 400px;
+    display: inline-block;
+}
+#name{
+
+    width: 140px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 13px;
+    float: left;
+    margin-right: 20px
+
+}
+#roadColor{
+
+    width: 140px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 13px;
+    float: left;
+    margin-right: 20px
+
+}
+
+.btn-group{
+    overflow: hidden;
+}
+
+.btn-group .button {
+    width: 130px;
+    background-color: #7f7f7f; /* Green */
+    border: none;
+    padding: 10px 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+.btn1{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.btn3{
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.btn-group .button:hover {
+    background-color: black;
+}
+.imgs{
+    width: 40px;
+}
+
+
+.center{
+    width: 100%;
+    height: 540px;
+    overflow: hidden;
+}
+#map{
+    width: 49%;
+    margin-top: 10px;
+    border-radius: 40px;
+    float: left;
+    height: 520px;
+}
+#context{
+    width: 49%;
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+    padding-left: 10px;
+    height:490px;
+    padding-top: 30px;
+    border-radius: 40px;
+    background-color: whitesmoke;
+}
+.ect{
+    width: 100%;
+    overflow: hidden;
+}
+.ect div{
+    width: 31%;
+    height: 250px;
+    margin-right: 10px;
+    float: left;
+    background-color: whitesmoke;
+}
+
+.ect #weather{
+	height: 180px;
+}
+#wifi{
+    overflow : hidden;
+}
+#kakao_btn_changed2 {
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+#kakao_btn_changed2 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+#weather{
+	text-align: center;
+	padding-top: 70px;
+}
+
